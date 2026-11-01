@@ -8,8 +8,11 @@ class Cart:
         self.items = []
 
     def print_cart(self):
+        if(self.length==0):
+            print('The cart is empty')
         for item in self.items:
             print(item)
+
 
     def add_dvd(self, dvd):
         if len(self.items) > MAX_NUMBERS_ORDERED:
