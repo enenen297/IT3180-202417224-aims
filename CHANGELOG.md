@@ -4,6 +4,8 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
+
+## [1.1.0]-1/11/2026
 ### Added
 - Cart.sort_by_title(), Cart.sort_by_cost()
 - search_by_category()
