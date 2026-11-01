@@ -4,6 +4,9 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
+## [1.0.1] - 2026-11-02
+### Fixed
+- `search_by_title` bỏ khoảng trắng thừa ở từ khóa (#<N>)
 
 ## [1.0.0] - 2026-11-01
 ### Added
