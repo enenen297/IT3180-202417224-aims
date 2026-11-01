@@ -1,0 +1,3 @@
+Vì sao release/ không merge vào master?* Release là baseline đóng băng, chỉ nhận hotfix. Merge ngược sẽ kéo các commit riêng của dòng release (như bump 1.0.1) vào master, gây xung đột với phiên bản đang phát triển (ví dụ 1.1.0). Bản sửa lỗi được đưa về master bằng cherry-pick (Lab 05). So với GitFlow: GitFlow merge release về cả main và develop, còn Release Flow giữ release tách biệt hoàn toàn, phù hợp khi phải bảo trì nhiều bản song song.
+
+Vì sao lên 1.0.0 mà không phải 0.4.0? Theo SemVer, 0.y.z là giai đoạn đầu, API chưa ổn định. 1.0.0 đánh dấu bản phát hành đầu tiên được coi là ổn định, đủ tính năng và đã được kiểm thử (test, bugfix, review), từ đó các thay đổi phải tuân theo quy tắc MAJOR/MINOR/PATCH.
