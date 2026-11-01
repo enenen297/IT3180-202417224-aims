@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 ## [Unreleased]
 ### Added
 - Cart.sort_by_title(), Cart.sort_by_cost()
+- search_by_category()
 
 ## [1.0.0] - 2026-11-01
 ### Added
