@@ -30,6 +30,12 @@ class Cart:
             return True
         print("The disc is not in the cart")
         return False
+    
+    def sort_by_title(self):
+        self.items.sort(key=lambda dvd: dvd.title.lower())
+
+    def sort_by_cost(self):
+        self.items.sort(key=lambda dvd: dvd.cost, reverse=True)
 
     def total_cost(self):
         return sum(item.cost for item in self.items)
