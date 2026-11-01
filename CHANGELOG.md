@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 - Cart.sort_by_title(), Cart.sort_by_cost()
 - search_by_category()
 
+## [1.0.1] - 2026-11-xx
+### Fixed
+- `search_by_title` bỏ khoảng trắng thừa ở từ khóa (#<1>)
+
 ## [1.0.0] - 2026-11-01
 ### Added
 - `Cart.print_cart()` để in nội dung giỏ hàng
